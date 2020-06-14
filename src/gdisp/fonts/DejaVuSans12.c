@@ -5,7 +5,7 @@
 #ifndef MF_BWFONT_INTERNALS
 #define MF_BWFONT_INTERNALS
 #endif
-#include "mf_bwfont.h"
+#include "../mcufont/mf_bwfont.h"
 
 #ifndef MF_BWFONT_VERSION_4_SUPPORTED
 #error The font file is not compatible with this version of mcufont.

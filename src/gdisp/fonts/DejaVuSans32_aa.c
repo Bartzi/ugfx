@@ -5,7 +5,7 @@
 #ifndef MF_RLEFONT_INTERNALS
 #define MF_RLEFONT_INTERNALS
 #endif
-#include "mf_rlefont.h"
+#include "../mcufont/mf_rlefont.h"
 
 #ifndef MF_RLEFONT_VERSION_4_SUPPORTED
 #error The font file is not compatible with this version of mcufont.
