@@ -659,15 +659,15 @@ void _gdispPostInitDriver(GDriver *g) {
 	gdispGClear(gd, GDISP_STARTUP_COLOR);
 
 	// Display the startup logo if this is a static initialised display
-	#if GDISP_STARTUP_LOGO_TIMEOUT > 0
-		if (!gdispInitDone)
-			StartupLogoDisplay(gd);
-	#endif
+	// #if GDISP_STARTUP_LOGO_TIMEOUT > 0
+	// 	if (!gdispInitDone)
+	// 		StartupLogoDisplay(gd);
+	// #endif
 
 	// Flush
-	#if GDISP_HARDWARE_FLUSH
-		gdispGFlush(gd);
-	#endif
+	// #if GDISP_HARDWARE_FLUSH
+	// 	gdispGFlush(gd);
+	// #endif
 
 	// If this is the first driver set GDISP
 	if (!GDISP)
